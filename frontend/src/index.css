@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body,
+#root {
+  min-height: 100%;
+}
+
+body {
+  @apply bg-campus-mist text-campus-navy font-body antialiased;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+*::selection {
+  @apply bg-campus-blue/30 text-campus-navy;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(62, 92, 138, 0.24);
+  border-radius: 9999px;
+}
+
+.scrollbar-thin {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(62, 92, 138, 0.24) transparent;
+}
