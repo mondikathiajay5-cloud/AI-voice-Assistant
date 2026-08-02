@@ -164,3 +164,4 @@ Given the service-per-file structure, the natural split is:
    stubbed response before the backend is finished.
 4. **Database schema + seed data** — whoever starts first, since everyone
    else's services depend on it.
+ 
